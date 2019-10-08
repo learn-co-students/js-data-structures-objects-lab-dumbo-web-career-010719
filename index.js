@@ -6,3 +6,9 @@ const driver = {};
 //   2) it does not modify the original driver, but rather returns a clone with the new data
 // destructivelyUpdateDriverWithKeyAndValue(driver, key, value)
 //   3) updates `driver` with the given `key` and `value` (it is destructive) and returns the entire updated driver
+
+function updateDriverWithKeyAndValue(driver,key,value){
+  const newObj = {...driver}
+  newObj[key] = value;
+  return newObj;
+}
