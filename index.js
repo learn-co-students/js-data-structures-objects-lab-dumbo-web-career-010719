@@ -25,3 +25,10 @@ function deleteFromDriverByKey(driver, key){
   delete newObj[key]
   return newObj;
 };
+
+// destructivelyDeleteFromDriverByKey(driver, key)
+// returns driver without the delete key/value pair
+
+function destructivelyDeleteFromDriverByKey(driver, key){
+  
+}
